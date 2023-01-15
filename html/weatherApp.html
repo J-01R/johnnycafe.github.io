@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Johnny's Cafe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../CSS/weatherApp.css">
+    
+  </head>
+  <body>
+    <header class="header">
+        <a href="../index.html" class="logo"> <i class="fas fa-coffee"></i>↪ Back to Johnny's Cafe</a>
+    <div class="icons">
+        <div id="products-btn" class="fas fa-bars"></div>
+    </div>
+</header>
+    <div class="container my-5"></div>
+      <h1 class="text-center title">Weather Results</h1>
+      <form class="search-loaction">
+        <input
+          type="text"
+          name="city"
+          placeholder="Search & Enter"
+          autocomplete="off"
+          class="form-control text-muted form-rounded p-4 shadow-sm">
+      </form>
+      <div class="card rounded my-3 shadow-lg d-none back-card"></div>
+        <div class="card-top text-center">
+          <div class="city-name my-3">
+            <p>Los Angeles</p>
+            <span>...</span>
+        <div class="card-body">
+          <div class="card-mid row">
+            <div class="col-8 text-center temp">
+              <span>30&deg;C</span>
+            </div>
+            <div class="col-4 condition-temp">
+              <p class="condition">Thunder Storm</p>
+              <p class="high">40&deg;C</p>
+              <p class="low">32&deg;C</p>
+            </div>
+          </div>
+          <div class="icon-container card shadow mx-auto">
+          </div>
+          <div class="card-bottom px-5 py-4 row">
+            <div class="col text-center">
+              <p>30&deg;C</p>
+              <span>Current</span>
+            </div>
+            <div class="col text-center">
+              <p>67%</p>
+              <span>Humidity</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../JavaScript/weather.js"></script>
+    <script src="../JavaScript/api.js"></script>
+    
+  </body>
+</html>
+<!--
+    Jonatan Rassekhnia
+    Uppsala Univeristy 
+    2022.12.29
+    Final Project
+    Johnny's Cafe
+    weatherapp.html
+-->
