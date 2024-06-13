@@ -3,4 +3,4 @@
 
 For Preview Purposes
 
-Cite is live at > https://j-01r.github.io/johnnycafe.github.io/ 
+Webpage is live at > https://j-01r.github.io/johnnycafe.github.io/ 
